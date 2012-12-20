@@ -1,0 +1,191 @@
+/*-----------------------------------------------------------------------------------*/
+/*	Widget Styles for Incorporated by MassivePixelCreation
+/*
+/*	1. Recent Posts
+/*	2. Twitter
+/* 
+/*-----------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------*/
+/*	1. Recent Posts
+/*-----------------------------------------------------------------------------------*/
+
+.mpc_latest_news_list {
+	list-style: none;
+	padding: 0px;	
+}
+
+.recent-post-title {
+	font-size: 18px;
+	color: #515151;
+	font-weight: lighter;
+	display: block;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 100;
+}
+
+.recent-post-title:hover { color: #ff3c10; }
+.mpc-recent-post { margin-bottom: 15px; }
+
+.latest_posts_data { font-size: 11px; position: relative; top: -4px; }
+
+.latest_posts_data a { color: #515151; }
+.latest_posts_data a:hover { color: #ff3c10; }
+
+
+
+/*--------------------------- END Recent Posts -------------------------------- */
+
+/*-----------------------------------------------------------------------------------*/
+/*	2. Twitter
+/*-----------------------------------------------------------------------------------*/
+
+.twtr-user,
+.twtr-widget em,
+.twtr-ft,
+.twtr-hd { display: none!important; }
+
+.twtr-tweet {
+	border-bottom: none!important;
+	margin-bottom: 10px;
+}
+
+.twtr-widget {
+	margin-left: -8px;
+	margin-top: -3px;
+}
+
+.twtr-tweet-text p {
+	font-family: 'Helvetica Neue', 'Open Sans', 'Helvetica', Arial, sans-serif!important;
+	font-size: 13px!important;
+	font-weight: 300;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	3. Flickr Widget
+/*-----------------------------------------------------------------------------------*/
+
+.quick-flickr-item {
+	width: 60px;
+	height: 60px;
+	overflow: hidden;
+	float: left;
+	margin-right: 7px;
+	margin-bottom: 7px;
+	opacity: 0.7;
+	position: relative;
+	overflow: hidden;
+}
+
+aside .quick-flickr-item { height: 75px; width: 75px;}
+
+/*.quick-flickr-item:hover:after {
+	bottom: 0px;
+}
+
+.quick-flickr-item:after {
+	content: '';
+	height: 2px;
+	background: #FF3C10;
+	width: 100%;
+	position: absolute;
+	bottom: -2px;
+	right: 0px;
+}*/
+
+.quick-flickr-item img {
+	width: 100%;
+}
+
+#gentle-aside .widget_quick-flickr-widget { 
+	overflow: hidden;
+	padding-left: 28px;
+	margin-left: -28px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Default Widgets
+/*-----------------------------------------------------------------------------------*/
+
+li.widget { font-size: 13px; width: 100%; }
+
+.widget_categories ul {
+	list-style: square;
+	color: #ff3c10;
+	position: relative;
+	left: -22px;
+}
+
+.widget_categories ul .cat-item > * {
+	position: relative;
+	top: 2px;
+	left: 5px;
+}
+
+.widget_pages ul,
+.widget_archive ul {
+	list-style: none;
+	padding: 0px;
+}
+
+.widget_categories ul li,
+.widget_pages ul li,
+.widget_archive ul li { margin-bottom: 15px; }
+
+.widget_categories ul li a,
+.widget_pages ul li a,
+.widget_archive ul li a {
+	color: #515151;
+	font-size: 17px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 100;
+}
+
+.widget_categories ul li a:hover,
+.widget_pages ul li a:hover,
+.widget_archive ul li a:hover { color: #ff3c10; }
+
+.tagcloud a {
+	background: #DDD;
+	color: white;
+	padding: 0px 6px;
+	font-size: 12px!important;
+	margin: 0px 2px 4px 0px;
+	display: inline-block;
+}
+
+.tagcloud a:hover {
+	background: #ff3c10;
+}
+
+
+.widget_calendar a { color: #ff3c10; }
+.widget_calendar a:hover { color: #515151; }
+
+.widget_calendar table {
+	border-spacing: 0;
+	border-collapse: collapse;
+	border: 1px solid #DDD;
+	width: 185px;
+	height: 166px;
+}
+
+.widget_calendar table thead {
+	background: #F9F9F9;
+	border-bottom: 1px solid #DDD;
+}
+
+.widget_calendar table th,
+.widget_calendar table td {
+	padding-left: 5px;
+}
+
+.widget_calendar caption {
+	border: 1px solid #DDD;
+	border-bottom: none;
+	position: relative;
+	top: 164px;
+	background: #F9F9F9;
+}
+
+.widget_calendar #calendar_wrap { margin-top: -19px; }
